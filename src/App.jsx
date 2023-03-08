@@ -9,7 +9,6 @@ const menu_items = [
     title: "Services",
     submenu: [
       { title: "Digital Marketing" },
-      { title: "Logo Designing" },
       { title: "Email Marketing" },
       { title: "Online Courses" },
       {
@@ -19,17 +18,18 @@ const menu_items = [
           { title: "Digital Marketing" },
           {
             title: "Logo Designing",
+          },
+          { title: "Email Marketing" },
+          {
+            title: "Online Courses",
             submenu: [
               { title: "Digital Marketing" },
-              { title: "Logo Designing" },
               { title: "Email Marketing" },
               { title: "Online Courses" },
               { title: "Live Couching" },
               { title: "Affiliate Marketing" },
             ],
           },
-          { title: "Email Marketing" },
-          { title: "Online Courses" },
           { title: "Live Couching" },
           { title: "Affiliate Marketing" },
         ],
@@ -39,7 +39,25 @@ const menu_items = [
   },
   { title: "Contact" },
   { title: "Technologies" },
-  { title: "Hardware" },
+  {
+    title: "Hardware",
+    submenu: [
+      { title: "Digital Marketing" },
+      { title: "Email Marketing" },
+      { title: "Online Courses" },
+      {
+        title: "Live Couching",
+        submenu: [
+          { title: "Digital Marketing" },
+          { title: "Email Marketing" },
+          { title: "Online Courses" },
+          { title: "Live Couching" },
+          { title: "Affiliate Marketing" },
+        ],
+      },
+      { title: "Affiliate Marketing" },
+    ],
+  },
   { title: "Software" },
   { title: "About us" },
 ];
