@@ -17,7 +17,17 @@ const menu_items = [
 
         submenu: [
           { title: "Digital Marketing" },
-          { title: "Logo Designing" },
+          {
+            title: "Logo Designing",
+            submenu: [
+              { title: "Digital Marketing" },
+              { title: "Logo Designing" },
+              { title: "Email Marketing" },
+              { title: "Online Courses" },
+              { title: "Live Couching" },
+              { title: "Affiliate Marketing" },
+            ],
+          },
           { title: "Email Marketing" },
           { title: "Online Courses" },
           { title: "Live Couching" },
